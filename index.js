@@ -5,16 +5,28 @@ class Main{
 
         document.getElementById("btnPangramas")
         .addEventListener("click", this.goTopangrama); 
+
+        document.getElementById("btnRomanNumber")
+        .addEventListener("click", this.goToRomanNumerals); 
+
+        document.getElementById("btnNotUnique")
+        .addEventListener("click", this.goToNonUniqueNumbers); 
     }
 
     goToLeapYear(){
-        console.log('btnLeapyear');
         window.location.href = "/exercices/view/leap-years.html"
     }
 
     goTopangrama(){
-        console.log('btnPangramas');
         window.location.href = "/exercices/view/pangrama.html"
+    }
+
+    goToRomanNumerals(){
+        window.location.href = "/exercices/view/roman-numerals.html"
+    }
+
+    goToNonUniqueNumbers(){
+        window.location.href = "/exercices/view/not-unique-numbers.html"
     }
 }
 

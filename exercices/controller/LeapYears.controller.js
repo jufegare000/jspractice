@@ -1,9 +1,12 @@
-import {showResult} from '../utils/PagesUtils.js'
+import {showResult, goToHome} from '../utils/PagesUtils.js'
 
 export class LeapYearController {
     constructor(){
         document.getElementById("btnLeapYear")
-        .addEventListener("click", this.calculateLeapYear);   
+        .addEventListener("click", this.calculateLeapYear);
+
+        document.getElementById("btnHome")
+        .addEventListener("click", goToHome);   
     }
 
     calculateLeapYear(){

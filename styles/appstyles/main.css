@@ -16,3 +16,10 @@ body {
     font-weight: 500;
     overflow: hidden;
 }
+
+.btn-dark {
+    margin: 1vh;
+    width: 20vw;
+    font-weight: 500;
+    overflow: hidden;
+}
