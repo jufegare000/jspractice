@@ -22,7 +22,8 @@ class Main{
     }
 
     goToRomanNumerals(){
-        window.location.href = window.location.href + "exercices/view/roman-numerals.html"
+       console.log(window.location.href);
+        // window.location.href = window.location.href + "exercices/view/roman-numerals.html"
     }
 
     goToNonUniqueNumbers(){
